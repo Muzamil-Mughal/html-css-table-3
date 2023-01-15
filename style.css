@@ -1,0 +1,56 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(14, 126, 60);
+}
+
+.Emp_data tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.Emp_data{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.Emp_data thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.Emp_data th,
+.Emp_data td {
+    padding: 12px 15px;
+}
+.Emp_data tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.Emp_data tbody tr:nth-of-type(even) {
+  background-color: #e2b9b9;
+}
+
+.Emp_data tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
